@@ -28,6 +28,8 @@ Estas credenciales van a ser las mismas para entrar en el `<url>/admin` para la 
 Para ejecutar el sistema:
 > `python manage.py runserver`
 
+previamente se tiene que crear un archivo `.env` dentro de la carpeta main del proyecto (`Tmob/Tmob`) con las credenciales de la base de datos. Hay un ejemplo de los datos posibles que puede tener llamado `env.example`, en caso de querer usar el mismo archivo, directamente saque la extencion __`.example`__ del mismo y cree una base de datos con las mismas caracteristicas delladas en el archivo
+
 #### Database
 > version: `10.5.13-MariaDB`
 

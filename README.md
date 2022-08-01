@@ -25,6 +25,9 @@ Dentro de la carpeta de `Tmob` ejecutar el siguiente comando
 
 Estas credenciales van a ser las mismas para entrar en el `<url>/admin` para la administracion del sistema.
 
+Para ejecutar el sistema:
+> `python manage.py runserver`
+
 #### Database
 > version: `10.5.13-MariaDB`
 
